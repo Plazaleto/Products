@@ -1,6 +1,4 @@
-package repository;
-
-import domain.Product;
+package ru.netology.domain;
 
 public class ProductRepository {
 

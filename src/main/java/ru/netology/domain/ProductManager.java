@@ -1,9 +1,4 @@
-package manager;
-
-import domain.Book;
-import domain.Product;
-import domain.Smartphone;
-import repository.ProductRepository;
+package ru.netology.domain;
 
 
 public class ProductManager {

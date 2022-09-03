@@ -1,28 +1,24 @@
-package manager;
+package ru.netology.domain;
 
-import domain.Book;
-import domain.Product;
-import domain.Smartphone;
 import org.junit.jupiter.api.Test;
-import repository.ProductRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class ProductManagerTest {
 
-    Book book1 = new Book(01, "Доктор Гарин", 100, "Сорокин В.Г.");
-    Book book2 = new Book(02, "Герой нашего времени", 80, "Лермонтов М.Ю.");
-    Book book3 = new Book(03, "Мы", 75, "Замятин Е.И.");
-    Book book4 = new Book(04, "Метель", 50, "Сорокин В.Г.");
-    Book book5 = new Book(05, "Палата №6", 50, "Чехов А.П.");
+    Book book1 = new Book(1, "Доктор Гарин", 100, "Сорокин В.Г.");
+    Book book2 = new Book(2, "Герой нашего времени", 80, "Лермонтов М.Ю.");
+    Book book3 = new Book(3, "Мы", 75, "Замятин Е.И.");
+    Book book4 = new Book(4, "Метель", 50, "Сорокин В.Г.");
+    Book book5 = new Book(5, "Палата №6", 50, "Чехов А.П.");
 
-    Smartphone smartphone1 = new Smartphone(01, "IPhone", 200, "USA");
-    Smartphone smartphone2 = new Smartphone(02, "Samsung", 150, "Korea");
-    Smartphone smartphone3 = new Smartphone(03, "Sony", 200, "Japan");
-    Smartphone smartphone4 = new Smartphone(04, "Nokia", 100, "Finland");
-    Smartphone smartphone5 = new Smartphone(05, "Xiaomi", 150, "China");
+    Smartphone smartphone1 = new Smartphone(1, "IPhone", 200, "USA");
+    Smartphone smartphone2 = new Smartphone(2, "Samsung", 150, "Korea");
+    Smartphone smartphone3 = new Smartphone(3, "Sony", 200, "Japan");
+    Smartphone smartphone4 = new Smartphone(4, "Nokia", 100, "Finland");
+    Smartphone smartphone5 = new Smartphone(5, "Xiaomi", 150, "China");
 
-    Product product1 = new Product(07, "Шорты", 500);
+    Product product1 = new Product(7, "Шорты", 500);
 
     @Test
     public void shouldNoProduct () {
